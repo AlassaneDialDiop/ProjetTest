@@ -39,4 +39,12 @@ public class Operation
     public double multiply(double a, double b) {
     	return a*b;
     }
+ /**
+	*This method computes the square of a int value
+	*@param a int value
+	* @return a*a the product of a and a
+	*/
+    public int square(int a) {
+    	return a*a;
+    }
 }
