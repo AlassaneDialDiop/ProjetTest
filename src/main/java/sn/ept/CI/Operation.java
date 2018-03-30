@@ -28,10 +28,10 @@ public class Operation
     	return a-b;
     }
 /**
-	*This method computes the sum of two double values
+	*This method computes the product of two double values
 	*@param a first double value
 	* @param b second double value
-	* @return a+b the product of a and b
+	* @return a*b the product of a and b
 	*/
     public int multiply(int a, int b) {
     	return a*b;
@@ -39,7 +39,7 @@ public class Operation
     public double multiply(double a, double b) {
     	return a*b;
     }
- /**
+/**
 	*This method computes the square of a int value
 	*@param a int value
 	* @return a*a the product of a and a
@@ -47,4 +47,12 @@ public class Operation
     public int square(int a) {
     	return a*a;
     }
+/**
+   	*This method computes the double of a int value
+   	*@param a int value
+   	* @return 2*a the product of a and a
+   	*/
+       public int twice(int a) {
+       	return 2*a;
+       }
 }

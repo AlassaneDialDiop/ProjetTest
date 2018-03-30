@@ -11,10 +11,10 @@ public class OperationTest{
 		int b = 2;
 		Operation instance = new Operation();
 		int expectedResult = 3;
-		int result = instance.add(a, b);
+		int result = instance.add();
 		Assert.assertEquals("Add operation fails", expectedResult , result);
 	}
-	
+
 	@Test
 	public void testMultiply() {
 		int a =1;
