@@ -11,7 +11,7 @@ public class OperationTest{
 		int b = 2;
 		Operation instance = new Operation();
 		int expectedResult = 3;
-		int result = instance.add();
+		int result = instance.add(a, b);
 		Assert.assertEquals("Add operation fails", expectedResult , result);
 	}
 
