@@ -21,7 +21,7 @@ public class OperationTest{
 		int b = 2;
 		Operation instance = new Operation();
 		int expectedResult = 2;
-		int result = instance.multiply(a, b);
+		int result = instance.multiply(a, a);
 		Assert.assertEquals("Multiply operation fails", expectedResult , result);
 		}
 }
